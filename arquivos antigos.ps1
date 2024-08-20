@@ -1,4 +1,3 @@
-# delete_old_files.ps1
 $path = "C:\Caminho\Para\Pasta"
 $days = 30
 Get-ChildItem -Path $path -Recurse | Where-Object {
